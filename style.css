@@ -1,0 +1,374 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.header {
+  height: 100vh;
+  width: 100%;
+  background-image: url("/assets/father.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navigation {
+  background-color: #3b74ce;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 64px;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+.li-wrap {
+  margin: 0px 35px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dark-mode {
+  width: 35px;
+  height: 35px;
+}
+
+.content-1 {
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+}
+
+.content-wrapper {
+  padding-top: 140px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sejarah {
+  /* background-color: aquamarine; */
+  height: 300px;
+}
+
+.sejarah > p {
+  margin-top: 20px;
+  color: #3b74ce;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.wilayah {
+  /* background-color: aquamarine; */
+  height: 250px;
+}
+
+.wilayah > p {
+  margin-top: 20px;
+  color: #3b74ce;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.deskripsi-1 {
+  padding: 20px 0px;
+  color: #3b74ce;
+  height: 250px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Tahoma";
+  font-weight: 700;
+  align-items: center;
+  /* background-color: tomato; */
+}
+
+.deskripsi-1 > p {
+  padding: 10px;
+  line-height: 45px;
+  font-size: 25px;
+}
+
+.deskripsi-1 > a {
+  color: white;
+  padding: 12px 10px;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: #ffb725;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.content-2 {
+  height: 100vh;
+  width: 100%;
+}
+
+.content-wrapper2 {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-wrapper2 > h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #000;
+}
+
+.content-wrapper2 > p {
+  margin: 30px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+
+.produk {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  z-index: -999;
+}
+
+.benih {
+  border-radius: 15px;
+  background-image: url("/assets/benih.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 350px;
+  width: 350px;
+  position: relative;
+}
+
+.benih > a {
+  text-decoration: none;
+  color: #3b74ce;
+  background-color: white;
+  padding: 12px 10px;
+  text-align: center;
+  width: 150px;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 550;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sayuran {
+  border-radius: 15px;
+  background-image: url("/assets/sayuran.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 350px;
+  width: 350px;
+  position: relative;
+}
+
+.sayuran > a {
+  text-decoration: none;
+  color: #3b74ce;
+  background-color: white;
+  padding: 12px 10px;
+  text-align: center;
+  width: 150px;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 550;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.beras {
+  border-radius: 15px;
+  background-image: url("/assets/beras.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 350px;
+  width: 350px;
+  position: relative;
+}
+
+.beras > a {
+  text-decoration: none;
+  color: #3b74ce;
+  background-color: white;
+  padding: 12px 10px;
+  text-align: center;
+  width: 150px;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 550;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-4 {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.content-wrapper4 {
+  padding-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-wrapper4 > h3 {
+  font-size: 25px;
+  margin-bottom: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.berita-container {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  width: 100%;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+.grid-item {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.item-text {
+  background-color: #eaeaea;
+  padding: 5px;
+}
+
+.content-3 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.content-wrapper3 {
+  padding-top: 90px;
+}
+
+.tentang {
+  display: flex;
+  flex-direction: column;
+}
+
+.tentang > a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 30px;
+  font-size: 15;
+}
+
+.sosial-media {
+  background-color: #3b74ce;
+  display: flex;
+  height: 150px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.laporan {
+  display: flex;
+  flex-direction: column;
+}
+
+.laporan > a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 40px;
+  font-size: 15;
+}
+
+.link-sosmed {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sosmed-logo {
+  padding: 10px 10px;
+  background-color: #ffb725;
+  border-radius: 10px;
+  margin: 0px 15px;
+}
+
+.line {
+  padding: 50px 0px;
+}
+
+.line > img {
+  width: 30%;
+}
+
+.copyright {
+  width: 100%;
+  background-color: #ffb725;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15;
+  color: white;
+  font-weight: 600;
+  padding: 15px 0px;
+}
+
+.footer {
+  background-color: bisque;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
